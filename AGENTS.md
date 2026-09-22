@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.1.1)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.1.2)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
