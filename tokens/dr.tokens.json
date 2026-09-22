@@ -1,0 +1,136 @@
+{
+  "$description": "Generated from Dirty Rebirth style v0.1.0 (provisional). Do not edit by hand.",
+  "color": {
+    "spray-red": {
+      "$type": "color",
+      "$value": "#a10d0c",
+      "$description": "Brand accent. The one call to action per screen. Measured from the graffiti red in the key art."
+    },
+    "poppy-red": {
+      "$type": "color",
+      "$value": "#c8231e",
+      "$description": "Lighter accent for hover/highlight on red elements."
+    },
+    "sky": {
+      "$type": "color",
+      "$value": "#8093a0",
+      "$description": "Cool neutral: secondary text, borders, quiet surfaces."
+    },
+    "brick": {
+      "$type": "color",
+      "$value": "#5a4d3e",
+      "$description": "Warm neutral: panels, cards, dividers."
+    },
+    "paper": {
+      "$type": "color",
+      "$value": "#cdd0d4",
+      "$description": "Primary text on dark; paper/poster surfaces."
+    },
+    "asphalt": {
+      "$type": "color",
+      "$value": "#151616",
+      "$description": "Page background."
+    },
+    "asphalt-2": {
+      "$type": "color",
+      "$value": "#1f2123",
+      "$description": "Raised surface on the page background."
+    },
+    "teal": {
+      "$type": "color",
+      "$value": "#407a7c",
+      "$description": "Rare secondary accent (graffiti throw-ups). Use sparingly."
+    },
+    "hazard": {
+      "$type": "color",
+      "$value": "#e8c33a",
+      "$description": "World colour for quarantine barriers and warnings ONLY - never a button or brand colour."
+    }
+  },
+  "fontFamily": {
+    "display": {
+      "$type": "fontFamily",
+      "$value": [
+        "Big Shoulders Stencil Display",
+        "Impact",
+        "Arial Narrow",
+        "sans-serif"
+      ],
+      "$description": "Headings, labels, buttons. Stencil lettering like the stencils on the wall."
+    },
+    "spray": {
+      "$type": "fontFamily",
+      "$value": [
+        "Rubik Spray Paint",
+        "Big Shoulders Stencil Display",
+        "sans-serif"
+      ],
+      "$description": "Graffiti accents only (a word or two). Never body text."
+    },
+    "body": {
+      "$type": "fontFamily",
+      "$value": [
+        "Inter",
+        "Segoe UI",
+        "Roboto",
+        "Arial",
+        "sans-serif"
+      ],
+      "$description": "Body text and UI copy. Provisional choice."
+    }
+  },
+  "dimension": {
+    "text-sm": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "text-md": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "text-lg": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "text-xl": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "text-2xl": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "space-1": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "space-2": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "space-3": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "space-4": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "space-6": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "space-8": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "button-height": {
+      "$type": "dimension",
+      "$value": "40px"
+    }
+  }
+}
