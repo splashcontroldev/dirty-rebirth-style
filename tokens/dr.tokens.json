@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.3.1 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.4.2 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -25,6 +25,11 @@
       "$type": "color",
       "$value": "#cdd0d4",
       "$description": "Primary text on dark; paper/poster surfaces."
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "#c4c1ba",
+      "$description": "The DIMMEST text allowed: secondary values, captions, the legal line. Passes 4.5:1 as rendered on calm dark paper at every window size (check-text-legibility.py; #b3b0a8 read 4.5:1 at 1100x720, too close). Never lower text contrast with opacity - use this."
     },
     "asphalt": {
       "$type": "color",
@@ -192,6 +197,22 @@
     "scrim-bottom": {
       "$value": "rgba(16,17,17,0) 0%, rgba(16,17,17,0.70) 35%, rgba(16,17,17,0.95) 100%",
       "$description": ""
+    },
+    "calm-white": {
+      "$value": "#d9d2cc",
+      "$description": "TEXT-SAFE wash behind a word printed on white paper: the paper's own colour, sampled from the painted kit. Fades out to the paper's texture at the edges, so specks never sit behind letters."
+    },
+    "calm-red": {
+      "$value": "#a00a09",
+      "$description": "Text-safe wash behind a word on red paper (the sticker, the red strip). Darker than the painted red, so white type clears 4.5:1 as rendered even at the smallest window (#b80a09 measured 4.4:1 at 1100x720)."
+    },
+    "calm-black": {
+      "$value": "#141312",
+      "$description": "Text-safe wash behind words on black paper (panels, the selected tab). Covers the painted cracks behind text."
+    },
+    "calm-strength": {
+      "$value": "0.88",
+      "$description": "Opacity at the centre of a calm wash. The edge is always 0, so the torn paper still shows."
     }
   },
   "motion": {

@@ -1,6 +1,6 @@
 # Dirty Rebirth style guide
 
-> **v0.3.1 · provisional.** Stylised realism in evacuated London, told through street graffiti.
+> **v0.4.2 · provisional.** Stylised realism in evacuated London, told through street graffiti.
 
 ![palette](swatches.png)
 
@@ -28,6 +28,7 @@ Also here: [SCSS](tokens/dr.scss) · [Tailwind preset](tokens/tailwind.preset.js
 | `--dr-sky` | `#8093a0` | Cool neutral: secondary text, borders, quiet surfaces. |
 | `--dr-brick` | `#5a4d3e` | Warm neutral: panels, cards, dividers. |
 | `--dr-paper` | `#cdd0d4` | Primary text on dark; paper/poster surfaces. |
+| `--dr-muted` | `#c4c1ba` | The DIMMEST text allowed: secondary values, captions, the legal line. Passes 4.5:1 as rendered on calm dark paper at every window size (check-text-legibility.py; #b3b0a8 read 4.5:1 at 1100x720, too close). Never lower text contrast with opacity - use this. |
 | `--dr-asphalt` | `#151616` | Page background. |
 | `--dr-asphalt-2` | `#1f2123` | Raised surface on the page background. |
 | `--dr-teal` | `#407a7c` | Rare secondary accent (graffiti throw-ups). Use sparingly. |
@@ -45,6 +46,7 @@ Also here: [SCSS](tokens/dr.scss) · [Tailwind preset](tokens/tailwind.preset.js
 - Text stays generous (16px body minimum). Paragraphs are 20 words or fewer. No em dashes in UI copy.
 - Buttons carry words, not stock icons or decorative chevrons.
 - Textures over flat fills: paper, brick, spray overspray and drips, tape, torn poster edges.
+- Texture never sits behind letters. Every word printed on paper gets a calm wash in that paper's own colour (surface.calm-*), and every text element must pass the legibility check (contrast and background noise, measured on screen).
 - Nothing perfectly symmetrical: panels rest slightly off-angle, the home card bleeds off the edge.
 - Motion feels physical (paper settling, paint spraying, rain), never glowing or bouncy. See motion.banned.
 - Corners are nearly square (2px). Nothing pill-shaped.

@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.3.1)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.4.2)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
@@ -17,6 +17,7 @@ You are styling a project in the **Dirty Rebirth** look. Stylised realism in eva
 - `#8093a0` **sky**: Cool neutral: secondary text, borders, quiet surfaces.
 - `#5a4d3e` **brick**: Warm neutral: panels, cards, dividers.
 - `#cdd0d4` **paper**: Primary text on dark; paper/poster surfaces.
+- `#c4c1ba` **muted**: The DIMMEST text allowed: secondary values, captions, the legal line. Passes 4.5:1 as rendered on calm dark paper at every window size (check-text-legibility.py; #b3b0a8 read 4.5:1 at 1100x720, too close). Never lower text contrast with opacity - use this.
 - `#151616` **asphalt**: Page background.
 - `#1f2123` **asphalt-2**: Raised surface on the page background.
 - `#407a7c` **teal**: Rare secondary accent (graffiti throw-ups). Use sparingly.
@@ -48,6 +49,7 @@ text-sm 14px, text-md 16px, text-lg 20px, text-xl 28px, text-2xl 40px, space-1 4
 - Text stays generous (16px body minimum). Paragraphs are 20 words or fewer. No em dashes in UI copy.
 - Buttons carry words, not stock icons or decorative chevrons.
 - Textures over flat fills: paper, brick, spray overspray and drips, tape, torn poster edges.
+- Texture never sits behind letters. Every word printed on paper gets a calm wash in that paper's own colour (surface.calm-*), and every text element must pass the legibility check (contrast and background noise, measured on screen).
 - Nothing perfectly symmetrical: panels rest slightly off-angle, the home card bleeds off the edge.
 - Motion feels physical (paper settling, paint spraying, rain), never glowing or bouncy. See motion.banned.
 - Corners are nearly square (2px). Nothing pill-shaped.

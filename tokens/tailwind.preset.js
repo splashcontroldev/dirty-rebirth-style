@@ -1,4 +1,4 @@
-// Generated from Dirty Rebirth style v0.3.1 (provisional). Do not edit by hand.
+// Generated from Dirty Rebirth style v0.4.2 (provisional). Do not edit by hand.
 // Use: presets: [require("./tailwind.preset.js")] in tailwind.config.js
 module.exports = {
   theme: {
@@ -9,6 +9,7 @@ module.exports = {
         'sky': '#8093a0',
         'brick': '#5a4d3e',
         'paper': '#cdd0d4',
+        'muted': '#c4c1ba',
         'asphalt': '#151616',
         'asphalt-2': '#1f2123',
         'teal': '#407a7c',

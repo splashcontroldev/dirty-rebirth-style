@@ -1,4 +1,4 @@
-/* Generated from Dirty Rebirth style v0.3.1 (provisional). Do not edit by hand. */
+/* Generated from Dirty Rebirth style v0.4.2 (provisional). Do not edit by hand. */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&family=Exo+2&family=Big+Shoulders+Stencil+Display&display=swap');
 :root {
   --dr-spray-red: #a10d0c;
@@ -6,6 +6,7 @@
   --dr-sky: #8093a0;
   --dr-brick: #5a4d3e;
   --dr-paper: #cdd0d4;
+  --dr-muted: #c4c1ba;
   --dr-asphalt: #151616;
   --dr-asphalt-2: #1f2123;
   --dr-teal: #407a7c;
@@ -41,6 +42,10 @@
   --dr-scrim-top-height: 168px;
   --dr-scrim-bottom: linear-gradient(180deg, rgba(16,17,17,0) 0%, rgba(16,17,17,0.70) 35%, rgba(16,17,17,0.95) 100%);
   --dr-scrim-bottom-height: 300px;
+  --dr-calm-white: #d9d2cc;
+  --dr-calm-red: #a00a09;
+  --dr-calm-black: #141312;
+  --dr-calm-strength: 0.88;
   --dr-motion-paste-on-duration: 560ms;
   --dr-motion-paste-on-stagger: 70ms;
   --dr-motion-paste-on-tilt-in: 2.4deg;
