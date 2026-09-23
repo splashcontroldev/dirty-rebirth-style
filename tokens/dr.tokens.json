@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.3.0 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.3.1 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -254,6 +254,15 @@
         "$value": "CLICK THIS"
       },
       "$description": "Onboarding: when an install or update is required, the PLAY poster reads CLICK THIS with a hand-sprayed arrow pointing at the INSTALL/UPDATE sticker. It returns to PLAY once nothing is pending (owner, 2026-09-22)."
+    },
+    "laser": {
+      "sweep": {
+        "$value": "240px"
+      },
+      "period": {
+        "$value": "45s"
+      },
+      "$description": "Kira's orbital laser, always on, roaming slowly around the Dome in the key art. Owner 2026-09-22: \"it needs to move slowly\"."
     }
   }
 }

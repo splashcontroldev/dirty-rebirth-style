@@ -1,6 +1,6 @@
 # Dirty Rebirth style guide
 
-> **v0.3.0 · provisional.** Stylised realism in evacuated London, told through street graffiti.
+> **v0.3.1 · provisional.** Stylised realism in evacuated London, told through street graffiti.
 
 ![palette](swatches.png)
 

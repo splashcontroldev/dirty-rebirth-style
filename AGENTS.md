@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.3.0)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.3.1)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
@@ -29,6 +29,7 @@ You are styling a project in the **Dirty Rebirth** look. Stylised realism in eva
 - **rain**: Rain beads run down smoke surfaces. Weather only.
 - **attention**: ONLY on the single element that needs the player right now (e.g. INSTALL/UPDATE when a download is required). Occasional, never constant; stops the moment the player acts; skipped under reduced motion. Owner 2026-09-22: "we need to introduce a hint/glint/shimmer/tutorial/on boarding effect to buttons that are trying to draw the attention of players".
 - **pointer-hint**: Onboarding: when an install or update is required, the PLAY poster reads CLICK THIS with a hand-sprayed arrow pointing at the INSTALL/UPDATE sticker. It returns to PLAY once nothing is pending (owner, 2026-09-22).
+- **laser**: Kira's orbital laser, always on, roaming slowly around the Dome in the key art. Owner 2026-09-22: "it needs to move slowly".
 - Every animation above is skipped when the OS asks for reduced motion.
 - Never: Crawling or sliding hazard/caution stripes, Constant or decorative light sweeps and shimmer (a glint is allowed only as motion.attention), Bounce and elastic easing, Glow pulses, Animated gradients
 
