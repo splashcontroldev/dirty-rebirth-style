@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.2.1 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.2.2 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -228,6 +228,24 @@
         "$value": "27-43px/s"
       },
       "$description": "Rain beads run down smoke surfaces. Weather only."
+    },
+    "attention": {
+      "glint": {
+        "$value": "one diagonal glint across the element"
+      },
+      "every": {
+        "$value": "7s"
+      },
+      "duration": {
+        "$value": "700ms"
+      },
+      "$description": "ONLY on the single element that needs the player right now (e.g. INSTALL/UPDATE when a download is required). Occasional, never constant; stops the moment the player acts; skipped under reduced motion. Owner 2026-09-22: \"we need to introduce a hint/glint/shimmer/tutorial/on boarding effect to buttons that are trying to draw the attention of players\"."
+    },
+    "pointer-hint": {
+      "text": {
+        "$value": "CLICK THIS"
+      },
+      "$description": "Onboarding: when an install or update is required, the PLAY poster reads CLICK THIS with a hand-sprayed arrow pointing at the INSTALL/UPDATE sticker. It returns to PLAY once nothing is pending (owner, 2026-09-22)."
     }
   }
 }

@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.2.1)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.2.2)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
@@ -27,8 +27,10 @@ You are styling a project in the **Dirty Rebirth** look. Stylised realism in eva
 - **hover-lift**: A button lifts off the wall under the pointer.
 - **art-drift**: The key art is never frozen.
 - **rain**: Rain beads run down smoke surfaces. Weather only.
+- **attention**: ONLY on the single element that needs the player right now (e.g. INSTALL/UPDATE when a download is required). Occasional, never constant; stops the moment the player acts; skipped under reduced motion. Owner 2026-09-22: "we need to introduce a hint/glint/shimmer/tutorial/on boarding effect to buttons that are trying to draw the attention of players".
+- **pointer-hint**: Onboarding: when an install or update is required, the PLAY poster reads CLICK THIS with a hand-sprayed arrow pointing at the INSTALL/UPDATE sticker. It returns to PLAY once nothing is pending (owner, 2026-09-22).
 - Every animation above is skipped when the OS asks for reduced motion.
-- Never: Crawling or sliding hazard/caution stripes, Light sweeps and shimmer on buttons, Bounce and elastic easing, Glow pulses, Animated gradients
+- Never: Crawling or sliding hazard/caution stripes, Constant or decorative light sweeps and shimmer (a glint is allowed only as motion.attention), Bounce and elastic easing, Glow pulses, Animated gradients
 
 ## Fonts
 - display: DirtyBomb NX Black (Splash Damage's own Dirty Bomb display face (Process Type Foundry licence, held by SD). Read from the player's installed game by the launcher and client; NEVER bundled or served. Public sites fall back to Big Shoulders Stencil Display (OFL).), fallback 'Big Shoulders Stencil Display', Impact, 'Arial Narrow', sans-serif. Headings, button words, labels. The Dirty Bomb voice.
