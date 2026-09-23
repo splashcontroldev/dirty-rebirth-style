@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.1.2 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.2.0 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -131,6 +131,92 @@
     "button-height": {
       "$type": "dimension",
       "$value": "40px"
+    },
+    "button-label": {
+      "$type": "dimension",
+      "$value": "17px"
+    },
+    "button-cta-width": {
+      "$type": "dimension",
+      "$value": "200px"
+    },
+    "card-width": {
+      "$type": "dimension",
+      "$value": "400px"
+    },
+    "mark-size": {
+      "$type": "dimension",
+      "$value": "30px"
+    }
+  },
+  "surface": {
+    "smoke-card": {
+      "$value": "rgba(18,19,20,0.55)",
+      "$description": "The status card on the home screen."
+    },
+    "smoke-panel": {
+      "$value": "rgba(28,30,32,0.45)",
+      "$description": "Content panels on inner screens."
+    },
+    "smoke-button": {
+      "$value": "rgba(26,28,30,0.40)",
+      "$description": "Quiet (secondary) buttons."
+    },
+    "veil": {
+      "$value": "rgba(16,17,17,0.76)",
+      "$description": "Darkens the art behind every screen except home."
+    },
+    "scrim-top": {
+      "$value": "rgba(16,17,17,0.90) 0%, rgba(16,17,17,0.60) 55%, rgba(16,17,17,0) 100%",
+      "$description": ""
+    },
+    "scrim-bottom": {
+      "$value": "rgba(16,17,17,0) 0%, rgba(16,17,17,0.70) 35%, rgba(16,17,17,0.95) 100%",
+      "$description": ""
+    }
+  },
+  "motion": {
+    "paste-on": {
+      "duration": {
+        "$value": "560ms"
+      },
+      "stagger": {
+        "$value": "70ms"
+      },
+      "tilt-in": {
+        "$value": "2.4deg"
+      },
+      "rest-tilt": {
+        "$value": "0.6deg"
+      },
+      "$description": "Panels arrive like a poster slapped on a wall, then rest a hair crooked."
+    },
+    "hover-lift": {
+      "distance": {
+        "$value": "3px"
+      },
+      "duration": {
+        "$value": "140ms"
+      },
+      "$description": "A button lifts off the wall under the pointer."
+    },
+    "art-drift": {
+      "zoom": {
+        "$value": "1.04-1.08"
+      },
+      "pan": {
+        "$value": "16px 8px"
+      },
+      "period": {
+        "$value": "38s / 53s"
+      },
+      "$description": "The key art is never frozen."
+    },
+    "rain": {
+      "speed": {
+        "$value": "27-43px/s"
+      },
+      "$description": "Rain beads run down smoke surfaces. Weather only."
     }
   }
 }

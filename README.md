@@ -1,6 +1,6 @@
 # Dirty Rebirth style guide
 
-> **v0.1.2 · provisional.** Stylised realism in evacuated London, told through street graffiti.
+> **v0.2.0 · provisional.** Stylised realism in evacuated London, told through street graffiti.
 
 ![palette](swatches.png)
 
@@ -39,18 +39,21 @@ Also here: [SCSS](tokens/dr.scss) · [Tailwind preset](tokens/tailwind.preset.js
 - **Inter** (body): Body text and UI copy. Provisional choice. [Google Fonts](https://fonts.google.com/specimen/Inter)
 
 ## Rules
-- Buttons stay modest in size; text stays generous (16px body minimum). Short sentences, short paragraphs.
-- One red thing per screen: the call to action. Everything else is neutral.
+- Buttons are 40px tall, all of them. The call to action differs by colour and width, never by height.
+- One red thing per screen: the call to action. Tab markers, toggles, radios and hover edges are paper, not red.
+- Text stays generous (16px body minimum). Paragraphs are 20 words or fewer. No em dashes in UI copy.
+- Buttons carry words, not stock icons or decorative chevrons.
 - Textures over flat fills: paper, brick, spray overspray and drips, tape, torn poster edges.
-- Every surface has a little life: subtle paper grain, a paint drip, a torn edge. Nothing perfectly flat and nothing perfectly symmetrical.
-- Motion feels physical (paper settling, paint spraying), never glowing or bouncy.
+- Nothing perfectly symmetrical: panels rest slightly off-angle, the home card bleeds off the edge.
+- Motion feels physical (paper settling, paint spraying, rain), never glowing or bouncy. See motion.banned.
 - Corners are nearly square (2px). Nothing pill-shaped.
 
 ## Avoid
-- Neon glows, glassmorphism, soft purple/blue gradients - the generic AI look.
+- Neon glows, decorative frosted-glass cards, soft purple/blue gradients - the generic AI look. (Smoke over OUR painted art is allowed: it shows the street, it does not decorate.)
 - Sunsets or orange skies, glossy plastic, over-sharpened photo/HDR looks.
 - Radiation trefoil symbols and generic military props.
-- Hazard yellow as a brand or button colour.
+- Hazard yellow as a brand or button colour, and moving hazard stripes anywhere.
+- Stock thin-line icons on buttons; oversized buttons; paragraphs that explain what a button already says.
 
 ## Changes
 See [CHANGELOG.md](CHANGELOG.md). This repo is generated automatically from Dirty Rebirth's own design tokens,
