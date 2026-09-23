@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.2.2)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.2.3)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
@@ -43,7 +43,7 @@ text-sm 14px, text-md 16px, text-lg 20px, text-xl 28px, text-2xl 40px, space-1 4
 
 ## Rules
 - Buttons are 40px tall, all of them. The call to action differs by colour and width, never by height.
-- One red thing per screen: the call to action. Tab markers, toggles, radios and hover edges are paper, not red.
+- One red ACTION per screen: the call to action, plus (only while it is pointing at it) the CLICK THIS hint. Tab markers, toggles, radios and hover edges are paper, not red.
 - Text stays generous (16px body minimum). Paragraphs are 20 words or fewer. No em dashes in UI copy.
 - Buttons carry words, not stock icons or decorative chevrons.
 - Textures over flat fills: paper, brick, spray overspray and drips, tape, torn poster edges.

@@ -1,6 +1,6 @@
 # Dirty Rebirth style guide
 
-> **v0.2.2 · provisional.** Stylised realism in evacuated London, told through street graffiti.
+> **v0.2.3 · provisional.** Stylised realism in evacuated London, told through street graffiti.
 
 ![palette](swatches.png)
 
@@ -41,7 +41,7 @@ Also here: [SCSS](tokens/dr.scss) · [Tailwind preset](tokens/tailwind.preset.js
 
 ## Rules
 - Buttons are 40px tall, all of them. The call to action differs by colour and width, never by height.
-- One red thing per screen: the call to action. Tab markers, toggles, radios and hover edges are paper, not red.
+- One red ACTION per screen: the call to action, plus (only while it is pointing at it) the CLICK THIS hint. Tab markers, toggles, radios and hover edges are paper, not red.
 - Text stays generous (16px body minimum). Paragraphs are 20 words or fewer. No em dashes in UI copy.
 - Buttons carry words, not stock icons or decorative chevrons.
 - Textures over flat fills: paper, brick, spray overspray and drips, tape, torn poster edges.

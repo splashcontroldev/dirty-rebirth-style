@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.2.3
+- Style tokens published (provisional).
+
 ## v0.2.2
 - Style tokens published (provisional).
 

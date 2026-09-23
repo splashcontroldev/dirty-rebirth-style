@@ -1,4 +1,4 @@
-// Generated from Dirty Rebirth style v0.2.2 (provisional). Do not edit by hand.
+// Generated from Dirty Rebirth style v0.2.3 (provisional). Do not edit by hand.
 // Use: presets: [require("./tailwind.preset.js")] in tailwind.config.js
 module.exports = {
   theme: {
