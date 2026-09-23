@@ -1,6 +1,6 @@
 # Dirty Rebirth style guide
 
-> **v0.2.0 · provisional.** Stylised realism in evacuated London, told through street graffiti.
+> **v0.2.1 · provisional.** Stylised realism in evacuated London, told through street graffiti.
 
 ![palette](swatches.png)
 
@@ -34,9 +34,10 @@ Also here: [SCSS](tokens/dr.scss) · [Tailwind preset](tokens/tailwind.preset.js
 | `--dr-hazard` | `#e8c33a` | World colour for quarantine barriers and warnings ONLY - never a button or brand colour. |
 
 ## Type
-- **Big Shoulders Stencil Display** (display): Headings, labels, buttons. Stencil lettering like the stencils on the wall. [Google Fonts](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display)
+- **DirtyBomb NX Black** (display): Headings, button words, labels. The Dirty Bomb voice. [Google Fonts](Splash Damage's own Dirty Bomb display face (Process Type Foundry licence, held by SD). Read from the player's installed game by the launcher and client; NEVER bundled or served. Public sites fall back to Big Shoulders Stencil Display (OFL).)
 - **Rubik Spray Paint** (spray): Graffiti accents only (a word or two). Never body text. [Google Fonts](https://fonts.google.com/specimen/Rubik+Spray+Paint)
-- **Inter** (body): Body text and UI copy. Provisional choice. [Google Fonts](https://fonts.google.com/specimen/Inter)
+- **Exo 2** (body): Body text and UI. Dirty Bomb's own UI font (SIL OFL, safe to bundle and serve). Replaces Inter, the #1 'looks AI-made' tell. [Google Fonts](https://fonts.google.com/specimen/Exo+2)
+- **Big Shoulders Stencil Display** (display-public): Public web fallback for the display face only. [Google Fonts](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display)
 
 ## Rules
 - Buttons are 40px tall, all of them. The call to action differs by colour and width, never by height.

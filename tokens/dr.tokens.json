@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.2.0 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.2.1 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -51,12 +51,13 @@
     "display": {
       "$type": "fontFamily",
       "$value": [
+        "DirtyBomb NX Black",
         "Big Shoulders Stencil Display",
         "Impact",
         "Arial Narrow",
         "sans-serif"
       ],
-      "$description": "Headings, labels, buttons. Stencil lettering like the stencils on the wall."
+      "$description": "Headings, button words, labels. The Dirty Bomb voice."
     },
     "spray": {
       "$type": "fontFamily",
@@ -70,13 +71,23 @@
     "body": {
       "$type": "fontFamily",
       "$value": [
-        "Inter",
+        "Exo 2",
         "Segoe UI",
         "Roboto",
         "Arial",
         "sans-serif"
       ],
-      "$description": "Body text and UI copy. Provisional choice."
+      "$description": "Body text and UI. Dirty Bomb's own UI font (SIL OFL, safe to bundle and serve). Replaces Inter, the #1 'looks AI-made' tell."
+    },
+    "display-public": {
+      "$type": "fontFamily",
+      "$value": [
+        "Big Shoulders Stencil Display",
+        "Impact",
+        "Arial Narrow",
+        "sans-serif"
+      ],
+      "$description": "Public web fallback for the display face only."
     }
   },
   "dimension": {

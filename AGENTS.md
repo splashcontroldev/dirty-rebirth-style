@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.2.0)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.2.1)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
@@ -31,9 +31,10 @@ You are styling a project in the **Dirty Rebirth** look. Stylised realism in eva
 - Never: Crawling or sliding hazard/caution stripes, Light sweeps and shimmer on buttons, Bounce and elastic easing, Glow pulses, Animated gradients
 
 ## Fonts
-- display: Big Shoulders Stencil Display (https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display), fallback Impact, 'Arial Narrow', sans-serif. Headings, labels, buttons. Stencil lettering like the stencils on the wall.
+- display: DirtyBomb NX Black (Splash Damage's own Dirty Bomb display face (Process Type Foundry licence, held by SD). Read from the player's installed game by the launcher and client; NEVER bundled or served. Public sites fall back to Big Shoulders Stencil Display (OFL).), fallback 'Big Shoulders Stencil Display', Impact, 'Arial Narrow', sans-serif. Headings, button words, labels. The Dirty Bomb voice.
 - spray: Rubik Spray Paint (https://fonts.google.com/specimen/Rubik+Spray+Paint), fallback 'Big Shoulders Stencil Display', sans-serif. Graffiti accents only (a word or two). Never body text.
-- body: Inter (https://fonts.google.com/specimen/Inter), fallback 'Segoe UI', Roboto, Arial, sans-serif. Body text and UI copy. Provisional choice.
+- body: Exo 2 (https://fonts.google.com/specimen/Exo+2), fallback 'Segoe UI', Roboto, Arial, sans-serif. Body text and UI. Dirty Bomb's own UI font (SIL OFL, safe to bundle and serve). Replaces Inter, the #1 'looks AI-made' tell.
+- display-public: Big Shoulders Stencil Display (https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display), fallback Impact, 'Arial Narrow', sans-serif. Public web fallback for the display face only.
 
 ## Sizes
 text-sm 14px, text-md 16px, text-lg 20px, text-xl 28px, text-2xl 40px, space-1 4px, space-2 8px, space-3 12px, space-4 16px, space-6 24px, space-8 32px, radius 2px, button-height 40px, button-label 17px, button-cta-width 200px, card-width 400px, mark-size 30px

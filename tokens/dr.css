@@ -1,5 +1,5 @@
-/* Generated from Dirty Rebirth style v0.2.0 (provisional). Do not edit by hand. */
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&family=Rubik+Spray+Paint&family=Inter&display=swap');
+/* Generated from Dirty Rebirth style v0.2.1 (provisional). Do not edit by hand. */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&family=Exo+2&family=Big+Shoulders+Stencil+Display&display=swap');
 :root {
   --dr-spray-red: #a10d0c;
   --dr-poppy-red: #c8231e;
@@ -10,9 +10,10 @@
   --dr-asphalt-2: #1f2123;
   --dr-teal: #407a7c;
   --dr-hazard: #e8c33a;
-  --dr-font-display: 'Big Shoulders Stencil Display', Impact, 'Arial Narrow', sans-serif;
+  --dr-font-display: 'DirtyBomb NX Black', 'Big Shoulders Stencil Display', Impact, 'Arial Narrow', sans-serif;
   --dr-font-spray: 'Rubik Spray Paint', 'Big Shoulders Stencil Display', sans-serif;
-  --dr-font-body: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+  --dr-font-body: 'Exo 2', 'Segoe UI', Roboto, Arial, sans-serif;
+  --dr-font-display-public: 'Big Shoulders Stencil Display', Impact, 'Arial Narrow', sans-serif;
   --dr-text-sm: 14px;
   --dr-text-md: 16px;
   --dr-text-lg: 20px;
