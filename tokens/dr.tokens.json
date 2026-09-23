@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.4.2 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.5.0 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -143,6 +143,10 @@
     "radius": {
       "$type": "dimension",
       "$value": "2px"
+    },
+    "reflow-below": {
+      "$type": "dimension",
+      "$value": "760px"
     },
     "button-height": {
       "$type": "dimension",
