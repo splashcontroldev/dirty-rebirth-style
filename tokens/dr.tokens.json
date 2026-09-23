@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.2.3 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.3.0 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -158,6 +158,14 @@
     "mark-size": {
       "$type": "dimension",
       "$value": "30px"
+    },
+    "wall-tab-height": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "wall-cta-height": {
+      "$type": "dimension",
+      "$value": "206px"
     }
   },
   "surface": {

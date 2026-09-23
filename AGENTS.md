@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.2.3)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.3.0)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
@@ -39,10 +39,10 @@ You are styling a project in the **Dirty Rebirth** look. Stylised realism in eva
 - display-public: Big Shoulders Stencil Display (https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display), fallback Impact, 'Arial Narrow', sans-serif. Public web fallback for the display face only.
 
 ## Sizes
-text-sm 14px, text-md 16px, text-lg 20px, text-xl 28px, text-2xl 40px, space-1 4px, space-2 8px, space-3 12px, space-4 16px, space-6 24px, space-8 32px, radius 2px, button-height 40px, button-label 17px, button-cta-width 200px, card-width 400px, mark-size 30px
+text-sm 14px, text-md 16px, text-lg 20px, text-xl 28px, text-2xl 40px, space-1 4px, space-2 8px, space-3 12px, space-4 16px, space-6 24px, space-8 32px, radius 2px, button-height 40px, button-label 17px, button-cta-width 200px, card-width 400px, mark-size 30px, wall-tab-height 64px, wall-cta-height 206px
 
 ## Rules
-- Buttons are 40px tall, all of them. The call to action differs by colour and width, never by height.
+- QUIET buttons (account, verify, settings actions) are 40px tall. The WALL pieces - tab strips and the call-to-action sticker on the home screen - are painted paper sized by the approved style frame (launcher r4), not by the button height. Owner approved that frame on 2026-09-22.
 - One red ACTION per screen: the call to action, plus (only while it is pointing at it) the CLICK THIS hint. Tab markers, toggles, radios and hover edges are paper, not red.
 - Text stays generous (16px body minimum). Paragraphs are 20 words or fewer. No em dashes in UI copy.
 - Buttons carry words, not stock icons or decorative chevrons.

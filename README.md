@@ -1,6 +1,6 @@
 # Dirty Rebirth style guide
 
-> **v0.2.3 · provisional.** Stylised realism in evacuated London, told through street graffiti.
+> **v0.3.0 · provisional.** Stylised realism in evacuated London, told through street graffiti.
 
 ![palette](swatches.png)
 
@@ -40,7 +40,7 @@ Also here: [SCSS](tokens/dr.scss) · [Tailwind preset](tokens/tailwind.preset.js
 - **Big Shoulders Stencil Display** (display-public): Public web fallback for the display face only. [Google Fonts](https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display)
 
 ## Rules
-- Buttons are 40px tall, all of them. The call to action differs by colour and width, never by height.
+- QUIET buttons (account, verify, settings actions) are 40px tall. The WALL pieces - tab strips and the call-to-action sticker on the home screen - are painted paper sized by the approved style frame (launcher r4), not by the button height. Owner approved that frame on 2026-09-22.
 - One red ACTION per screen: the call to action, plus (only while it is pointing at it) the CLICK THIS hint. Tab markers, toggles, radios and hover edges are paper, not red.
 - Text stays generous (16px body minimum). Paragraphs are 20 words or fewer. No em dashes in UI copy.
 - Buttons carry words, not stock icons or decorative chevrons.
