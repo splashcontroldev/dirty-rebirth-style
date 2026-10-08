@@ -1,4 +1,4 @@
-# Instructions for AI assistants: apply the Dirty Rebirth style (v0.6.0)
+# Instructions for AI assistants: apply the Dirty Rebirth style (v0.7.0)
 
 You are styling a project in the **Dirty Rebirth** look. Stylised realism in evacuated London, told through street graffiti. Painted, not photographed. Between realistic and cartoony, like Dirty Bomb. Overcast cool daylight, wet streets, Victorian brick railway arches, layered resistance graffiti (red and black stencils, tags, colourful throw-ups), clean white-and-yellow quarantine barriers, and red poppies growing through the cracks.
 
@@ -31,6 +31,14 @@ You are styling a project in the **Dirty Rebirth** look. Stylised realism in eva
 - **attention**: ONLY on the single element that needs the player right now (e.g. INSTALL/UPDATE when a download is required). Occasional, never constant; stops the moment the player acts; skipped under reduced motion. Owner 2026-09-22: "we need to introduce a hint/glint/shimmer/tutorial/on boarding effect to buttons that are trying to draw the attention of players".
 - **pointer-hint**: Onboarding: when an install or update is required, the PLAY poster reads CLICK THIS with a hand-sprayed arrow pointing at the INSTALL/UPDATE sticker. It returns to PLAY once nothing is pending (owner, 2026-09-22).
 - **laser**: Kira's orbital laser, always on, roaming slowly around the Dome in the key art. Owner 2026-09-22: "it needs to move slowly".
+- **spray-reveal**: A panel or word is sprayed on: a 6-pose white spray mask (-webkit-mask-image) steps from speckles to solid, then paste-on settles. Entry of wall signs, board panels, floor DEPLOY.
+- **overspray**: On pressing a red call-to-action: a red mist puff at the pointer scales 1 -> 1.4 and fades. Once per press.
+- **drip**: A red drip grows under a stamp or under DEPLOY after a state change. Never loops.
+- **stamp-slam**: A state stamp (READY, LOCKED, NEW) slams onto paper; one overspray puff; drip after 300ms.
+- **flap**: The departures board changes panel like a split-flap board: rows flip top to bottom in a stagger. Only when a panel changes (player flips or data updates), never idle.
+- **tape-peel**: Hover lifts a tape corner (swap to the lifted-tape piece); press flattens it.
+- **shake**: Screen root jitters once when DEPLOY is pressed. Never on anything else.
+- **flutter**: Loose flyers only, rare idle life. Perspective parent, no asset.
 - Every animation above is skipped when the OS asks for reduced motion.
 - Never: Crawling or sliding hazard/caution stripes, Constant or decorative light sweeps and shimmer (a glint is allowed only as motion.attention), Bounce and elastic easing, Glow pulses, Animated gradients
 

@@ -1,4 +1,4 @@
-/* Generated from Dirty Rebirth style v0.6.0 (provisional). Do not edit by hand. */
+/* Generated from Dirty Rebirth style v0.7.0 (provisional). Do not edit by hand. */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&family=Exo+2&family=Big+Shoulders+Stencil+Display&display=swap');
 :root {
   --dr-spray-red: #a10d0c;
@@ -63,4 +63,45 @@
   --dr-motion-pointer-hint-text: CLICK THIS;
   --dr-motion-laser-sweep: 240px;
   --dr-motion-laser-period: 45s;
+  --dr-motion-scale-_about: Every duration comes from this scale. Physical things are quick to hit and slow to settle.;
+  --dr-motion-scale-instant: 80ms;
+  --dr-motion-scale-snap: 140ms;
+  --dr-motion-scale-quick: 220ms;
+  --dr-motion-scale-base: 360ms;
+  --dr-motion-scale-settle: 560ms;
+  --dr-motion-scale-slow: 900ms;
+  --dr-motion-scale-ambient: 38s;
+  --dr-motion-ease-_about: Curves as cubic-bezier. No bounce, no elastic (motion.banned).;
+  --dr-motion-ease-slap: cubic-bezier(0.2, 0.9, 0.25, 1.0);
+  --dr-motion-ease-settle: cubic-bezier(0.33, 0.0, 0.2, 1.0);
+  --dr-motion-ease-peel: cubic-bezier(0.5, 0.0, 0.75, 0.3);
+  --dr-motion-ease-linear: linear;
+  --dr-motion-ease-flap: cubic-bezier(0.55, 0.0, 0.45, 1.0);
+  --dr-motion-engine-_about: The client renders UI with Chromium 40 (UI-FX-CAPABILITIES.md). Motion is built ONLY from: transform, opacity, 3-D transforms, steps() sprite/mask sheets. Never animate -webkit-filter (steps at ~11 fps). No CSS var(), no mix-blend-mode.;
+  --dr-motion-engine-sprites: assets/motion-sheet-*.png (painted by ChatGPT; cut into strips by scripts);
+  --dr-motion-spray-reveal-frames: 6;
+  --dr-motion-spray-reveal-duration: quick;
+  --dr-motion-spray-reveal-timing: steps(6);
+  --dr-motion-overspray-frames: 4;
+  --dr-motion-overspray-duration: base;
+  --dr-motion-overspray-ease: settle;
+  --dr-motion-drip-frames: 5;
+  --dr-motion-drip-duration: slow;
+  --dr-motion-drip-timing: steps(5);
+  --dr-motion-drip-delay: 300ms;
+  --dr-motion-stamp-slam-frames: 3;
+  --dr-motion-stamp-slam-duration: snap;
+  --dr-motion-stamp-slam-scale: 1.6 -> 1;
+  --dr-motion-stamp-slam-ease: slap;
+  --dr-motion-flap-duration: quick;
+  --dr-motion-flap-stagger: 35ms;
+  --dr-motion-flap-per-row: rotateX(-90deg) -> 0 on a perspective(800px) parent;
+  --dr-motion-flap-ease: flap;
+  --dr-motion-tape-peel-duration: snap;
+  --dr-motion-tape-peel-ease: peel;
+  --dr-motion-shake-duration: quick;
+  --dr-motion-shake-amplitude: 3px;
+  --dr-motion-shake-keyframes: 5;
+  --dr-motion-flutter-rotate: rotateY +-4deg;
+  --dr-motion-flutter-period: 6-9s;
 }

@@ -1,5 +1,5 @@
 {
-  "$description": "Generated from Dirty Rebirth style v0.6.0 (provisional). Do not edit by hand.",
+  "$description": "Generated from Dirty Rebirth style v0.7.0 (provisional). Do not edit by hand.",
   "color": {
     "spray-red": {
       "$type": "color",
@@ -288,6 +288,162 @@
         "$value": "45s"
       },
       "$description": "Kira's orbital laser, always on, roaming slowly around the Dome in the key art. Owner 2026-09-22: \"it needs to move slowly\"."
+    },
+    "scale": {
+      "_about": {
+        "$value": "Every duration comes from this scale. Physical things are quick to hit and slow to settle."
+      },
+      "instant": {
+        "$value": "80ms"
+      },
+      "snap": {
+        "$value": "140ms"
+      },
+      "quick": {
+        "$value": "220ms"
+      },
+      "base": {
+        "$value": "360ms"
+      },
+      "settle": {
+        "$value": "560ms"
+      },
+      "slow": {
+        "$value": "900ms"
+      },
+      "ambient": {
+        "$value": "38s"
+      },
+      "$description": ""
+    },
+    "ease": {
+      "_about": {
+        "$value": "Curves as cubic-bezier. No bounce, no elastic (motion.banned)."
+      },
+      "slap": {
+        "$value": "cubic-bezier(0.2, 0.9, 0.25, 1.0)"
+      },
+      "settle": {
+        "$value": "cubic-bezier(0.33, 0.0, 0.2, 1.0)"
+      },
+      "peel": {
+        "$value": "cubic-bezier(0.5, 0.0, 0.75, 0.3)"
+      },
+      "linear": {
+        "$value": "linear"
+      },
+      "flap": {
+        "$value": "cubic-bezier(0.55, 0.0, 0.45, 1.0)"
+      },
+      "$description": ""
+    },
+    "engine": {
+      "_about": {
+        "$value": "The client renders UI with Chromium 40 (UI-FX-CAPABILITIES.md). Motion is built ONLY from: transform, opacity, 3-D transforms, steps() sprite/mask sheets. Never animate -webkit-filter (steps at ~11 fps). No CSS var(), no mix-blend-mode."
+      },
+      "sprites": {
+        "$value": "assets/motion-sheet-*.png (painted by ChatGPT; cut into strips by scripts)"
+      },
+      "$description": ""
+    },
+    "spray-reveal": {
+      "frames": {
+        "$value": 6
+      },
+      "duration": {
+        "$value": "quick"
+      },
+      "timing": {
+        "$value": "steps(6)"
+      },
+      "$description": "A panel or word is sprayed on: a 6-pose white spray mask (-webkit-mask-image) steps from speckles to solid, then paste-on settles. Entry of wall signs, board panels, floor DEPLOY."
+    },
+    "overspray": {
+      "frames": {
+        "$value": 4
+      },
+      "duration": {
+        "$value": "base"
+      },
+      "ease": {
+        "$value": "settle"
+      },
+      "$description": "On pressing a red call-to-action: a red mist puff at the pointer scales 1 -> 1.4 and fades. Once per press."
+    },
+    "drip": {
+      "frames": {
+        "$value": 5
+      },
+      "duration": {
+        "$value": "slow"
+      },
+      "timing": {
+        "$value": "steps(5)"
+      },
+      "delay": {
+        "$value": "300ms"
+      },
+      "$description": "A red drip grows under a stamp or under DEPLOY after a state change. Never loops."
+    },
+    "stamp-slam": {
+      "frames": {
+        "$value": 3
+      },
+      "duration": {
+        "$value": "snap"
+      },
+      "scale": {
+        "$value": "1.6 -> 1"
+      },
+      "ease": {
+        "$value": "slap"
+      },
+      "$description": "A state stamp (READY, LOCKED, NEW) slams onto paper; one overspray puff; drip after 300ms."
+    },
+    "flap": {
+      "duration": {
+        "$value": "quick"
+      },
+      "stagger": {
+        "$value": "35ms"
+      },
+      "per-row": {
+        "$value": "rotateX(-90deg) -> 0 on a perspective(800px) parent"
+      },
+      "ease": {
+        "$value": "flap"
+      },
+      "$description": "The departures board changes panel like a split-flap board: rows flip top to bottom in a stagger. Only when a panel changes (player flips or data updates), never idle."
+    },
+    "tape-peel": {
+      "duration": {
+        "$value": "snap"
+      },
+      "ease": {
+        "$value": "peel"
+      },
+      "$description": "Hover lifts a tape corner (swap to the lifted-tape piece); press flattens it."
+    },
+    "shake": {
+      "duration": {
+        "$value": "quick"
+      },
+      "amplitude": {
+        "$value": "3px"
+      },
+      "keyframes": {
+        "$value": 5
+      },
+      "$description": "Screen root jitters once when DEPLOY is pressed. Never on anything else."
+    },
+    "flutter": {
+      "rotate": {
+        "$value": "rotateY +-4deg"
+      },
+      "period": {
+        "$value": "6-9s"
+      },
+      "$description": "Loose flyers only, rare idle life. Perspective parent, no asset."
     }
   }
 }
